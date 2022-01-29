@@ -1,0 +1,28 @@
+{
+  "name": "monurakkaya/laravel-sortable",
+  "description": "Enables simple sort for your Eloquent models",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Monurakkaya\\Lucg\\": "src/"
+    },
+    "files": [
+
+    ]
+  },
+  "authors": [
+    {
+      "name": "Mehmet Onur Akkaya",
+      "email": "monurakkaya@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Monurakkaya\\Sortable\\Providers\\SortableServiceProvider"
+      ]
+    }
+  }
+}
