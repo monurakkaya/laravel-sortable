@@ -17,7 +17,7 @@ $fooThree = Foo::create(['title' => 'Foo3', 'sort_order' => 3]);
 $records = Foo::get();
 -Foo1
 -Foo3
--Foo4
+-Foo2
 ```
 
 ## USAGE
