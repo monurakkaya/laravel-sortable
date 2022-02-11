@@ -2,6 +2,14 @@
     "name": "monurakkaya/laravel-sortable",
     "description": "Enables simple sort for your Eloquent models",
     "type": "library",
+    "keywords": [
+        "sort",
+        "sortable",
+        "model",
+        "eloquent",
+        "laravel"
+    ],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Monurakkaya\\Sortable\\": "src/"
@@ -14,6 +22,7 @@
         }
     ],
     "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {},
     "extra": {
         "laravel": {
