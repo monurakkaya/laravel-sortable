@@ -1,28 +1,34 @@
 {
-  "name": "monurakkaya/laravel-sortable",
-  "description": "Enables simple sort for your Eloquent models",
-  "type": "library",
-  "autoload": {
-    "psr-4": {
-      "Monurakkaya\\Sortable\\": "src/"
+    "name": "monurakkaya/laravel-sortable",
+    "description": "Enables simple sort for your Eloquent models",
+    "type": "library",
+    "keywords": [
+        "sort",
+        "sortable",
+        "model",
+        "eloquent",
+        "laravel"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Monurakkaya\\Sortable\\": "src/"
+        }
     },
-    "files": [
-
-    ]
-  },
-  "authors": [
-    {
-      "name": "Mehmet Onur Akkaya",
-      "email": "monurakkaya@gmail.com"
+    "authors": [
+        {
+            "name": "Mehmet Onur Akkaya",
+            "email": "monurakkaya@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Monurakkaya\\Sortable\\Providers\\SortableServiceProvider"
+            ]
+        }
     }
-  ],
-  "minimum-stability": "stable",
-  "require": {},
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Monurakkaya\\Sortable\\Providers\\SortableServiceProvider"
-      ]
-    }
-  }
 }
