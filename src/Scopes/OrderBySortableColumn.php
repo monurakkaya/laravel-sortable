@@ -2,9 +2,9 @@
 
 namespace Monurakkaya\Sortable\Scopes;
 
-use Illuminate\Database\Eloquent\Scope;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Scope;
 
 class OrderBySortableColumn implements Scope
 {
