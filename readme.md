@@ -101,3 +101,10 @@ $table->dropSortableColumn('my_column_name');
 
 Using schema helper is optional. You can go on with your own definitions.
 
+## Tests
+
+To run the tests, execute the following from the command line, while in the project root directory:
+
+```shell
+./vendor/bin/phpunit
+```
