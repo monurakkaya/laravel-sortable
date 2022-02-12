@@ -15,6 +15,11 @@
             "Monurakkaya\\Sortable\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Monurakkaya\\Sortable\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Mehmet Onur Akkaya",
@@ -23,7 +28,13 @@
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "require": {},
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^9.5"
+    },
     "extra": {
         "laravel": {
             "providers": [
