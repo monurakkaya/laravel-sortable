@@ -1,12 +1,10 @@
 <?php
 
-
 namespace Monurakkaya\Sortable\Scopes;
 
 use Illuminate\Database\Eloquent\Scope;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
-
 
 class OrderBySortableColumn implements Scope
 {
