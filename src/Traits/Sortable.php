@@ -16,12 +16,12 @@ trait Sortable
         });
     }
 
-    public function getSortableColumn()
+    public function getSortableColumn(): string
     {
         return 'sort_order';
     }
 
-    public function getSortableDirection()
+    public function getSortableDirection(): string
     {
         return 'asc';
     }
