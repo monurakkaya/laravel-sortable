@@ -25,7 +25,8 @@ jobs:
             testbench: 7.*
         exclude:
           - laravel: 9.*
-              php: 7.4
+            php: 7.4
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
